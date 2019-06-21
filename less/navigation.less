@@ -1,1 +1,26 @@
-// Navigation code here
+.nav-container {
+  .displayFlex(column wrap, center, center);
+  width: 100%;
+  background-color: @nav-bg;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  opacity: ;
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    .navLink(none, @nav-font, 1.6rem);
+    text-align: center;
+    margin-right: 40px;
+  }
+
+  nav a:hover {
+    transform: scale(1.2);
+    font-weight: 600;
+  }
+}  
