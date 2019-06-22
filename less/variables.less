@@ -26,3 +26,15 @@
 // Mobile var
 
 @phone: (max-width: 500px);
+
+// Reusing Animation from my Processing Stretch 
+
+.keyframes(@name; @arguments) {
+  @keyframes @name {
+    @arguments();
+  }
+}
+
+.animation(@arguments) {
+  animation: @arguments;
+}
