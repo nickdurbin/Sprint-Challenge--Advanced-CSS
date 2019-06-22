@@ -359,17 +359,6 @@ footer {
   font-size: 4rem;
   margin: 15px 0;
 }
-.home .hero-container .hero-text h1 span {
-  animation: fade-in 0.4s linear infinite alternate;
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .home .main-content {
   background: #F1F1F1;
   border: 2px solid #81848E;
@@ -405,6 +394,15 @@ footer {
   border-radius: 5px;
   font-size: 2rem;
   font-weight: 600;
+  animation: fade-in 0.4s linear infinite alternate;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @media (max-width: 500px) {
   .home .main-content .btn {
