@@ -1,1 +1,30 @@
-// Mixins Here
+// Parametric Mixins Here
+
+.displayFlex(@flex-flow, @align, @justify) {
+  display: flex;
+  flex-flow: @flex-flow;
+  align-items: @align;
+  justify-content: @justify;
+}
+
+.navLink(@text-d, @color, @font-s) {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: @text-d;
+  color: @color;
+  font-size: @font-s;
+}
+
+// Regular Mixins
+
+.buttonStyles() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: @btn-bg-color;
+  color: White;
+  width: 30%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: 600;
+}

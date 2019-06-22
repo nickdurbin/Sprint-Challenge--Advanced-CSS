@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Fully responsive uses units with percentages to make the breakpoints more seamless instead of fixed breakpoints and items popping into place. Percentages for width properties are a great example. Things get weird using percentages for height elements. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first makes the main design based on a mobile device and the media queries work outward to desktop size. This is the difference in using min-width vs max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It allows us to make a declaration in 10s values. If we type 1.4rem it is equal to 14px font. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing allows a user to break up components or compartmentalize areas of styling, then gives you the ability to add several more advanced features before it is compiled into CSS. This is done by importing the different style sheets into a main index for the compiler to translate into CSS. Features included are function, variables, mixins, and nesting.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love all of it. The mixins have some great use and the nesting makes it easier to setup the code. Most trouble is maybe functions because I haven’t used them.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
